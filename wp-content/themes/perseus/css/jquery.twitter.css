@@ -1,0 +1,50 @@
+div.twitter {
+	overflow:hidden;
+	position:relative;
+}
+
+p.preloader {
+	margin: 0;
+	padding: 5px;
+	/* generate your own loader gif: http://www.ajaxload.info */
+}
+
+ul.twitter_update_list {
+	margin: 0;
+	list-style-type: none;
+}
+
+ul.twitter_update_list li {
+	margin: 0;
+	padding-bottom:10px;
+}
+
+ul.twitter_update_list li>a {
+	/* timestamp link */
+
+}
+ul.twitter_update_list li span a {
+	display:inline-block;
+	text-decoration:none;
+}
+.background ul.twitter_update_list li span a, .background ul.twitter_update_list li>a{}
+ul.twitter_update_list li span a:hover {text-decoration:underline;}
+ul.twitter_update_list li span {
+	display: block;
+}
+
+
+
+ul.twitter_update_list li.firstTweet {
+}
+
+ul.twitter_update_list li.lastTweet {
+	border-bottom: none;
+}
+
+a.profileLink {
+	display: none;
+	padding: 5px;
+	color: #fff;
+	background-color: #888;
+}

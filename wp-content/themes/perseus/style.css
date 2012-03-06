@@ -1,0 +1,33 @@
+/*
+Theme Name: Perseus
+Theme URI: http://perseus.codepuzzle.net
+Author: Kees Kramer
+Author URI: http://codepuzzle.net
+Description: A feature rich company/blog or magazine theme utilizing Nivo slider, mutltiple layout options and an ajax contact form. This Theme is a clean, two column widget ready theme with multiple admin options and shortcodes. It have two custom post types one for slides and the next for portfolio enteries. Multiple Column layout options, sliders on a page by page basis with slider cateogries.
+Version: 1.0
+License: Please see Lisencing information that ships with this theme.
+License URI: license.txt
+Tags:  light, gray, one-column, two-columns, right-sidebar, fixed-width, custom-menu, editor-style, featured-images, full-width-template, sticky-post, theme-options
+*/
+
+@import 'css/reset.css';
+@import 'css/style.css';
+@import 'css/grid-persent.css';
+
+/*
+Custom CSS additions by IJ
+*/
+
+body.home #page_title_con { display:none; }
+body.home #nivo-slider { margin-bottom:25px; }
+h2#page_titles { text-align:left; }
+.post_date_con { display:none; }
+#about_us_text h3 { margin-bottom:10px; }
+.single-portfolio #portfolio_cats_list { display:none; }
+.single-portfolio .three_col_item { width:300px; }
+.single-portfolio .page_content img { max-width:980px; }
+#comments { display:none; }
+
+/*
+End custom additions
+*/

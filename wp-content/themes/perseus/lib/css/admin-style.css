@@ -1,0 +1,7 @@
+/*admin styles*/
+
+h3{display: block;background-color: #EBEBEB;width: 95%;padding: 10px;-moz-border-radius: 5px;
+border-radius: 5px;border: 1px solid white}
+p{font-style: italic;font-weight: lighter;color: #777;line-height: 30px;font-size: 98%;}
+.social_table{background-color: #EBEBEB;padding: 10px;margin-top: 20px;margin-bottom: 20px;-moz-border-radius: 5px;
+border-radius: 5px;border: 1px solid white}
